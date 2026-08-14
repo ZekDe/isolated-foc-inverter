@@ -1,0 +1,92 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "0f7d7e61-62cc-4c59-8c5e-485d13f34162")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 21.59 20.32)
+		(size 66.04 44.45)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "015ab2e6-0b63-4623-9035-5648d50cf748")
+		(property "Sheetname" "Non_Isolated_Sources"
+			(at 21.59 19.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Non_Isolated_Sources.kicad_sch"
+			(at 21.59 65.3546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "inverter"
+				(path "/3204ba7f-2595-40d5-96c4-b5420b6cfaec/3afa141f-cd93-4607-9036-c4b1c64d3fa6"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 20.32)
+		(size 59.69 44.45)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8d8cbd4f-fd39-4cc7-9fb7-c457a69a4ea5")
+		(property "Sheetname" "Isolated_Sources"
+			(at 101.6 19.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Isolated_Sources.kicad_sch"
+			(at 101.6 65.3546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "inverter"
+				(path "/3204ba7f-2595-40d5-96c4-b5420b6cfaec/3afa141f-cd93-4607-9036-c4b1c64d3fa6"
+					(page "9")
+				)
+			)
+		)
+	)
+)

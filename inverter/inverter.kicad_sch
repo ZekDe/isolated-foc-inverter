@@ -1,0 +1,350 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "3204ba7f-2595-40d5-96c4-b5420b6cfaec")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 177.8 77.47)
+		(size 27.94 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "02155a83-4194-4519-b62d-ed9800f11680")
+		(property "Sheetname" "HALL_ENC"
+			(at 177.8 76.7584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "hall_enc.kicad_sch"
+			(at 177.8 103.4546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "inverter"
+				(path "/3204ba7f-2595-40d5-96c4-b5420b6cfaec"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 190.5 34.29)
+		(size 25.4 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0f805a05-8ded-4d2a-a8f2-65544edc49cd")
+		(property "Sheetname" "BRAKE"
+			(at 190.5 33.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "brake.kicad_sch"
+			(at 190.5 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "inverter"
+				(path "/3204ba7f-2595-40d5-96c4-b5420b6cfaec"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 135.89 77.47)
+		(size 33.02 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1cd63d55-e759-408a-992c-1bced8cf1bca")
+		(property "Sheetname" "MCU"
+			(at 135.89 76.7584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 135.89 103.4546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "inverter"
+				(path "/3204ba7f-2595-40d5-96c4-b5420b6cfaec"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 44.196 33.274)
+		(size 40.64 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3afa141f-cd93-4607-9036-c4b1c64d3fa6")
+		(property "Sheetname" "Power"
+			(at 44.196 32.5624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 44.196 60.5286 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "inverter"
+				(path "/3204ba7f-2595-40d5-96c4-b5420b6cfaec"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 44.45 74.93)
+		(size 30.48 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7f2738ac-a6ef-4c74-a331-9d17f8e4aa5e")
+		(property "Sheetname" "Shunt_Current_Sense"
+			(at 44.45 74.2184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "shunt_current_sense.kicad_sch"
+			(at 44.45 99.6446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "inverter"
+				(path "/3204ba7f-2595-40d5-96c4-b5420b6cfaec"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 161.29 34.29)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "93d0cd89-0d8e-4b21-889c-641f260de90f")
+		(property "Sheetname" "Mosfets"
+			(at 161.29 33.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mosfets.kicad_sch"
+			(at 161.29 60.2746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "inverter"
+				(path "/3204ba7f-2595-40d5-96c4-b5420b6cfaec"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 106.68 34.29)
+		(size 45.72 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ad8e2a52-a970-4a47-b23f-b0ec3fda957e")
+		(property "Sheetname" "Drivers"
+			(at 106.68 33.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "drivers.kicad_sch"
+			(at 106.68 60.2746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "inverter"
+				(path "/3204ba7f-2595-40d5-96c4-b5420b6cfaec"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 76.2)
+		(size 26.67 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ca173914-4d1f-4d58-b770-0fe638c46c31")
+		(property "Sheetname" "VBus_Current_Sense"
+			(at 88.9 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "vbus_current_sense.kicad_sch"
+			(at 88.9 100.9146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "inverter"
+				(path "/3204ba7f-2595-40d5-96c4-b5420b6cfaec"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,21 @@
+* text=auto
+
+# KiCad sources are text files and benefit from stable line endings.
+*.kicad_pro text eol=lf
+*.kicad_sch text eol=lf
+*.kicad_pcb text eol=lf
+*.kicad_sym text eol=lf
+*.kicad_mod text eol=lf
+fp-lib-table text eol=lf
+sym-lib-table text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+
+# Reference documents, models, and images are binary.
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.step binary
+*.stp binary
+

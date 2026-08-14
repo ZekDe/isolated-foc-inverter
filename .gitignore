@@ -1,0 +1,23 @@
+# KiCad user-specific and temporary files
+*.kicad_prl
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.bak
+*.tmp
+*.lck
+~*.lck
+_autosave-*
+
+# KiCad generated caches and automatic backup archives
+fp-info-cache
+*-backups/
+
+# Local research and reference material (not part of the public repository)
+/Motor Driver/
+
+# OS and editor metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
