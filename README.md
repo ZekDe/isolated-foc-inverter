@@ -27,7 +27,7 @@ Tam izoleli, FOC (Field-Oriented Control) kontrollü üç fazlı motor sürücü
 4. İlk açılışta özel sembol ve footprint yollarını doğrulayın.
 
 ```powershell
-git clone https://github.com/<kullanici-adi>/isolated-foc-inverter.git
+git clone https://github.com/ZekDe/isolated-foc-inverter.git
 cd isolated-foc-inverter
 ```
 
